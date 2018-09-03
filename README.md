@@ -19,16 +19,16 @@ si tienen demasiados problemas con los tipos.
 
 Dentro de `src` hay tres directorios vacíos.
 
--   **`controller`**: Este directorio contiene lógica de la aplicación. No
+-   **`controllers`**: Este directorio contiene lógica de la aplicación. No
     debería tener que dibujar cosas al DOM
 
--   **`tmbdb-client`**: Será una clase que sólo debe consultar la API de
+-   **`tmdb-client`**: Será una clase que sólo debe consultar la API de
     The Movie Database.
 
 -   **`utils`**: Utilidades que no sepan donde meter pero que se reutilizan. Ojo
     con no meter muchas cosas aquí!
 
--   **`view`**: Será una clase cuyo único propósito es dibujar datos en el DOM.
+-   **`views`**: Será una clase cuyo único propósito es dibujar datos en el DOM.
     Esta clase no hace falta testearla
 
 Tienen un ejemplo parecido en [este repositorio](https://github.com/GeneracionKAgosto/ejemplo-controlador-vista).
