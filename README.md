@@ -21,8 +21,9 @@ si tienen demasiados problemas con los tipos.
 
 Dentro de `src` hay tres directorios vacíos.
 
--   **`controllers`**: Este directorio contiene lógica de la aplicación. No
-    debería tener que dibujar cosas al DOM
+-   **`controllers`**: Este directorio contiene lógica de la aplicación.
+    Escribiremos una clase para poder encapsularla. No debería tener que dibujar
+    cosas al DOM.
 
 -   **`tmdb-client`**: Será una clase que sólo debe consultar la API de
     The Movie Database.
@@ -30,7 +31,7 @@ Dentro de `src` hay tres directorios vacíos.
 -   **`utils`**: Utilidades que no sepan donde meter pero que se reutilizan. Ojo
     con no meter muchas cosas aquí!
 
--   **`views`**: Será una clase cuyo único propósito es dibujar datos en el DOM.
+-   **`views`**: Serán clases cuyo único propósito es dibujar datos en el DOM.
     Esta clase no hace falta testearla
 
 Tienen un ejemplo parecido en [este repositorio](https://github.com/GeneracionKAgosto/ejemplo-controlador-vista).
