@@ -10,6 +10,8 @@ los resultados en un listado.
 
 ## Requisitos
 
+![Mockup](https://i.imgur.com/8vELiqd.png)
+
 ### Typescript
 
 Tendremos que usar Typescript para este miniproyecto, pero me pueden preguntar
@@ -49,6 +51,8 @@ Deben dejar la aplicación lo mejor que puedan. Se valorarán:
 -   Estructuración del código (dividido en varios ficheros)
 -   Legibilidad y limpieza
 -   Buen uso de TypeScript
+-   Buen uso de Programación Orientada a Objetos, encapsulación, etc...
+-   Buen uso de la Programación Funcional, inmutabilidad, pureza...
 
 Opcionalmente si terminan la parte de las películas pueden ampliarlo para que
 permita buscar series.
