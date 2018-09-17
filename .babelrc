@@ -1,3 +1,11 @@
 {
-  "presets": ["@babel/preset-typescript"]
+  "presets": ["@babel/preset-typescript"],
+  "env": {
+    "dev": {
+      "plugins": [["import-rename", { "^(?!.*\\.js)(.*)": "$1.js" }]]
+    },
+    "test": {
+      "plugins": ["@babel/plugin-transform-modules-commonjs"]
+    }
+  }
 }
